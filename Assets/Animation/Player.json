@@ -1,0 +1,116 @@
+{
+  "leftSide": 1.0,
+  "rightSide": -1.0,
+  "names": [
+    "leftHand",
+    "leftLeg",
+    "rightLeg",
+    "body",
+    "rightHand",
+    "head"
+  ],
+  "animationDefinitions": {
+    "head": {
+      "offset": {
+        "x": 0.0,
+        "y": 0.75
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "rotateCenter": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "side": "",
+      "swingSpeed": 0.0,
+      "amplitude": 0.0
+    },
+    "leftHand": {
+      "offset": {
+        "x": 0.0,
+        "y": 0.125
+      },
+      "scale": {
+        "x": 0.25,
+        "y": 0.75
+      },
+      "rotateCenter": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "side": "right",
+      "swingSpeed": 2.5,
+      "amplitude": 0.5
+    },
+    "rightHand": {
+      "offset": {
+        "x": 0.0,
+        "y": 0.125
+      },
+      "scale": {
+        "x": 0.25,
+        "y": 0.75
+      },
+      "rotateCenter": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "side": "left",
+      "swingSpeed": 2.5,
+      "amplitude": 0.5
+    },
+    "body": {
+      "offset": {
+        "x": 0.0,
+        "y": 0.125
+      },
+      "scale": {
+        "x": 0.25,
+        "y": 0.75
+      },
+      "rotateCenter": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "side": "",
+      "swingSpeed": 0.0,
+      "amplitude": 0.0
+    },
+    "leftLeg": {
+      "offset": {
+        "x": 0.0,
+        "y": -0.625
+      },
+      "scale": {
+        "x": 0.25,
+        "y": 0.75
+      },
+      "rotateCenter": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "side": "left",
+      "swingSpeed": 2.5,
+      "amplitude": 0.5
+    },
+    "rightLeg": {
+      "offset": {
+        "x": 0.0,
+        "y": -0.625
+      },
+      "scale": {
+        "x": 0.25,
+        "y": 0.75
+      },
+      "rotateCenter": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "side": "right",
+      "swingSpeed": 2.5,
+      "amplitude": 0.5
+    }
+  }
+}

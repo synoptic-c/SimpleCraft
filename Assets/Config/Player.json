@@ -1,0 +1,9 @@
+{
+  "texturePath": "Assets/textures/entity/steve.png",
+  "atlasPath": "Assets/Atlas/Player.json",
+  "animationPath": "Assets/Animation/Player.json",
+  "walkSpeed": 9.0,
+  "gravity": 32.0,
+  "hangTime": 0.08,
+  "jumpSpeed": 8.0
+}

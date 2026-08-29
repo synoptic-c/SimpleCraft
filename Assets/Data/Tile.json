@@ -1,0 +1,61 @@
+{
+  "names": [
+    "grass_side",
+    "dirt",
+    "stone",
+    "coal_ore",
+    "iron_ore",
+    "diamond_ore",
+    "log_oak",
+    "planks_oak",
+    "leaves_oak"
+  ],
+  "fixedTiles": [
+    {
+      "name": "air",
+      "index": -1
+    }
+  ],
+  "collisions": [
+    {
+      "name": "air",
+      "collision": "none"
+    },
+    {
+      "name": "grass_side",
+      "collision": "solid"
+    },
+    {
+      "name": "dirt",
+      "collision": "solid"
+    },
+    {
+      "name": "stone",
+      "collision": "solid"
+    },
+    {
+      "name": "coal_ore",
+      "collision": "solid"
+    },
+    {
+      "name": "iron_ore",
+      "collision": "solid"
+    },
+    {
+      "name": "diamond_ore",
+      "collision": "solid"
+    },
+    {
+      "name": "log_oak",
+      "collision": "none"
+    },
+    {
+      "name": "planks_oak",
+      "collision": "solid"
+    },
+    {
+      "name": "leaves_oak",
+      "collision": "none"
+    }
+  ]
+}

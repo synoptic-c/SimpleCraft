@@ -1,0 +1,19 @@
+{
+  "shaders": [
+    {
+      "name": "basic",
+      "vertexPath": "Assets/Shader/Basic.vert",
+      "fragmentPath": "Assets/Shader/Basic.frag"
+    },
+    {
+      "name": "atlas",
+      "vertexPath": "Assets/Shader/Atlas.vert",
+      "fragmentPath": "Assets/Shader/Atlas.frag"
+    },
+    {
+      "name": "font",
+      "vertexPath": "Assets/Shader/Font.vert",
+      "fragmentPath": "Assets/Shader/Font.frag"
+    }
+  ]
+}

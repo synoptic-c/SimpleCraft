@@ -1,0 +1,8 @@
+{
+  "tileWidth": 1.0,
+  "tileHeight": 1.0,
+  "widthCount": 18,
+  "heightCount": 11,
+  "texturePath": "Assets/textures/blocks/",
+  "textureExtension": ".png"
+}

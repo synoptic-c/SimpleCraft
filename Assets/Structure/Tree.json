@@ -1,0 +1,12 @@
+{
+  "name": "tree",
+  "width": 5,
+  "height": 5,
+  "tiles": [
+    "air",        "leaves_oak", "leaves_oak", "leaves_oak", "air",
+    "leaves_oak", "leaves_oak", "leaves_oak", "leaves_oak", "leaves_oak",
+    "leaves_oak", "leaves_oak", "leaves_oak", "leaves_oak", "leaves_oak",
+    "air",        "air",        "log_oak",    "air",        "air",
+    "air",        "air",        "log_oak",    "air",        "air"
+  ]
+}

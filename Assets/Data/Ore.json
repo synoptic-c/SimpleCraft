@@ -1,0 +1,19 @@
+{
+  "oreDefinitions":[
+    {
+      "name": "diamond_ore",
+      "threshold": -0.99,
+      "depth": 40
+    },
+    {
+      "name": "iron_ore",
+      "threshold": -0.98,
+      "depth": 10
+    },
+    {
+      "name": "coal_ore",
+      "threshold": -0.97,
+      "depth": 10
+    }
+  ]
+}

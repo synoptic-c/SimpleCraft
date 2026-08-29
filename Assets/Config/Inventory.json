@@ -1,0 +1,8 @@
+{
+  "texturePath": "Assets/textures/gui/container/inventory.png",
+  "atlasPath": "Assets/Atlas/Inventory.json",
+  "scale": {
+    "x": 4.0,
+    "y": 4.0
+  }
+}

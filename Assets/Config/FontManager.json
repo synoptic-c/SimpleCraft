@@ -1,0 +1,9 @@
+{
+  "quality": 64.0,
+  "fonts": [
+    {
+      "name": "notoSans",
+      "path": "Assets/Font/NotoSansMono-Regular.ttf"
+    }
+  ]
+}

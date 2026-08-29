@@ -1,0 +1,10 @@
+{
+  "chunkCountWidth": 1,
+  "chunkCountHeight": 1,
+  "chunkWidth": 16,
+  "chunkHeight": 16,
+  "surfaceFrequency": 3.0,
+  "surfaceAmplitude": 10.0,
+  "oreFrequency": 16.0,
+  "dirtDepth": 5
+}

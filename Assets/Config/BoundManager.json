@@ -1,0 +1,12 @@
+{
+  "bounds": [
+    {
+      "name": "humanoid",
+      "path": "Assets/Bound/Humanoid.json"
+    },
+    {
+      "name": "dropShape",
+      "path": "Assets/Bound/DropShape.json"
+    }
+  ]
+}
