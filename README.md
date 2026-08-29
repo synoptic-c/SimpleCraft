@@ -47,3 +47,9 @@ External/stb/stb_truetype.cpp
 将textures文件夹复制到Assets文件夹中
 
 贴图版本为1.8 - 1.12.2
+
+# 构建
+
+cmake -B build
+
+cmake --build build
