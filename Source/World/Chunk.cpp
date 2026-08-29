@@ -71,23 +71,23 @@ int SimpleCraft::Chunk::GetSurfaceY(const FastNoiseLite& surfaceNoise, int world
 	int surfaceY = (int)(surfaceValue * surfaceAmplitude);
 	return surfaceY;
 }
-void SimpleCraft::Chunk::StructurePlace(const SimpleCraft::StructureData* structureData, const std::unordered_map<std::string, int>& tileDefinitions, int chunkX, int chunkY)
-{
-	for (int y = 0; y < structureData->height; y++)
-	{
-		for (int x = 0; x < structureData->width; x++)
-		{
-			if (x < _width && y < _height)
-			{
-				unsigned int index = x + (structureData->height - y - 1) * structureData->width;
-				if (index < structureData->tiles.size())
-				{
-					_data[x + y * _width] = GetTileDefinition(tileDefinitions, structureData->tiles[index]);
-				}
-			}
-		}
-	}
-}
+//void SimpleCraft::Chunk::StructurePlace(const SimpleCraft::StructureData* structureData, const std::unordered_map<std::string, int>& tileDefinitions, int chunkX, int chunkY)
+//{
+//	for (int y = 0; y < structureData->height; y++)
+//	{
+//		for (int x = 0; x < structureData->width; x++)
+//		{
+//			if (x < _width && y < _height)
+//			{
+//				unsigned int index = x + (structureData->height - y - 1) * structureData->width;
+//				if (index < structureData->tiles.size())
+//				{
+//					_data[x + y * _width] = GetTileDefinition(tileDefinitions, structureData->tiles[index]);
+//				}
+//			}
+//		}
+//	}
+//}
 int SimpleCraft::Chunk::GetTile(int localX, int localY) const
 {
 	if (localX >= 0 && localX < _width && localY >= 0 && localY < _height)
