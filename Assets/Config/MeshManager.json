@@ -1,8 +1,0 @@
-{
-  "meshes": [
-    {
-      "name": "quad",
-      "path": "Assets/Mesh/Quad.json"
-    }
-  ]
-}
